@@ -15,13 +15,13 @@ end
 #   config.access_token_secret = "BTd4Q7vK264x7IIhKLZJ4f18z69xEISP01QpGtiUrNWUF"
 # end
 
-####################################
-#client.update('She took more than I did, I think women are stronger')
-####################################
- # client.search("#DeportBobCollymore").first(10).each do |tweet|
- #    users = "#{tweet.user.screen_name}:"," #{tweet.text}"
- #      puts users[0]
- #    end
+###################################
+client.update('She took more than I did, I think women are stronger')
+###################################
+ client.search("#DeportBobCollymore").first(10).each do |tweet|
+    users = "#{tweet.user.screen_name}:"," #{tweet.text}"
+      puts users[0]
+    end
 
 
 
